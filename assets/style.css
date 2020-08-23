@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    /* margin-left: -570px; */
+    width: 100%;
+    max-width: 1140px;
+    max-height: 288px;
+    z-index: 1;
+}
+aside{
+    flex: 1;
+    background-color: black;
+    display: flex;
+    max-width: 20%;
+}
+main{
+    position: relative;
+    top: 288px;
+    z-index: 0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+footer{
+    background-color: #343a40;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+    max-width: 1140px;
+    margin: auto;
+    position: relative;
+    top:288px;
+    padding: 50px 0px;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+    position: relative;
+}
+.header-container{
+    flex: 2;
+}
+.nama{
+    padding: 1.5em;
+    background-color: #343a40;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.menu{
+    background-color: chocolate;
+    color: #fff;
+    text-align: center;
+
+    display: flex;
+}
+.text-menu{
+    display: block;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    
+}
+.menu-item{
+    flex:1;
+    padding: 3em;
+}
+.home{
+    background-color: dodgerblue;
+}
+.school{
+    background-color: forestgreen;
+}
+.org{
+    background-color: maroon;
+}
+.nama{
+    text-align: center;
+}
+.socmed{
+    text-align: center;
+    padding: 45px 0px;
+}
+.icons{
+    width: 40px;
+    margin: 10px 20px 0px 20px;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+
+    padding: 40px 10px;
+}
+.quote{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 500px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    margin: 30px auto;
+    z-index: 1;
+}
+.logos{
+    width: 200px;
+    margin: 10px;
+}
+
+#photo{
+    flex:1;
+}
+#username{
+    font-family: monospace;
+    font-size: large;
+}
+
+
+@media(max-width: 767px){
+    
+    aside{
+        display: none;
+    }
+
+    .nama{
+        text-align: center;
+    }
+    .text-menu{
+        display: none;
+    }
+}
